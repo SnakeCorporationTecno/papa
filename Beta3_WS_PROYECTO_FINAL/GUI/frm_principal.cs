@@ -144,7 +144,7 @@ namespace Beta3_WS_PROYECTO_FINAL
 
         private void btn_partidos_Click(object sender, EventArgs e)
         {
-            uC_partidos1.BringToFront();
+            uC_partidos.BringToFront();
         }
 
         private void btn_convocatorias_Click(object sender, EventArgs e)

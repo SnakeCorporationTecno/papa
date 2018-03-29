@@ -54,7 +54,7 @@
             this.lbl_inicio = new System.Windows.Forms.Label();
             this.lbl_partidos = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.uC_partidos1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_partidos();
+            this.uC_partidos = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_partidos();
             this.uC_estadisticas1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_estadisticas();
             this.uC_equipos1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_equipos();
             this.uC_convocatorias1 = new Beta3_WS_PROYECTO_FINAL.GUI.UC.UC_convocatorias();
@@ -482,11 +482,11 @@
             // 
             // uC_partidos1
             // 
-            this.uC_partidos1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_partidos1.Location = new System.Drawing.Point(0, 108);
-            this.uC_partidos1.Name = "uC_partidos1";
-            this.uC_partidos1.Size = new System.Drawing.Size(1230, 490);
-            this.uC_partidos1.TabIndex = 5;
+            this.uC_partidos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_partidos.Location = new System.Drawing.Point(0, 108);
+            this.uC_partidos.Name = "uC_partidos1";
+            this.uC_partidos.Size = new System.Drawing.Size(1230, 490);
+            this.uC_partidos.TabIndex = 5;
             // 
             // uC_estadisticas1
             // 
@@ -550,7 +550,7 @@
             this.Controls.Add(this.uC_inicio1);
             this.Controls.Add(this.uC_cuenta_DT_ADMIN1);
             this.Controls.Add(this.uC_calendario1);
-            this.Controls.Add(this.uC_partidos1);
+            this.Controls.Add(this.uC_partidos);
             this.Controls.Add(this.uC_estadisticas1);
             this.Controls.Add(this.uC_equipos1);
             this.Controls.Add(this.uC_convocatorias1);
@@ -603,7 +603,7 @@
         private GUI.UC.UC_convocatorias uC_convocatorias1;
         private GUI.UC.UC_equipos uC_equipos1;
         private GUI.UC.UC_estadisticas uC_estadisticas1;
-        private GUI.UC.UC_partidos uC_partidos1;
+        private GUI.UC.UC_partidos uC_partidos;
         private GUI.UC.UC_calendario uC_calendario1;
         private GUI.UC.UC_cuenta_DT_ADMIN uC_cuenta_DT_ADMIN1;
         private GUI.UC.UC_inicio uC_inicio1;
